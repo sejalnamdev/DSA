@@ -20,5 +20,15 @@ int main()
    cout << (num1 <= num2) << endl; // false
    cout << (num1 >= num2) << endl; // true
 
+
+   num1+=5;
+   cout<<num1<<endl; //13
+   num2-=3;
+   cout<<num2<<endl; //1
+   num1/=2;
+   cout<<num1<<endl; //4
+   num2%=3;
+   cout<<num2<<endl; //1
+
    return 0;
 }
