@@ -1,4 +1,11 @@
 #include<iostream>
 using namespace std;
 
-    cout<<(1+2+"pqr");
+int main(){
+    int pqr;
+    cout<<(1+2+pqr);
+    return 0;
+
+}
+
+    
