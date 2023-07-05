@@ -3,7 +3,8 @@ using namespace std;
 
 int main(){
 
-    int base,exp, i, result =1;
+    int base,exp,  result =1;
+    int i=0;
     cout<<"enter base and exponent :"<<endl;
     cin>>base>>exp;
 
