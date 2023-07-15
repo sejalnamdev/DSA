@@ -8,12 +8,18 @@ int main(){
     cout<<sizeof (array) /sizeof( array[0])<<endl;
 
 
-    int array2[5];
-    cout<<array[0]<<endl;
-    cout<<array[1]<<endl;
-    cout<<array[2]<<endl;
-    cout<<array[3]<<endl;
-    cout<<array[4]<<endl;
+    int array2[4];
+    cout<<array2[0]<<endl;
+    cout<<array2[1]<<endl;
+    cout<<array2[2]<<endl;
+    cout<<array2[3]<<endl;
+   
+    
+    
+
+
+
+
 
 
     return 0;
