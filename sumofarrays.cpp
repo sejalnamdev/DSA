@@ -8,7 +8,7 @@ int main(){
 
     int sum=0;
     for(int i=0;i<size;i++){
-        sum+=array[i];   //sum of arrays
+        sum+=array[i];   //sum of elements of array
     }
 
     cout<<sum<<endl;
