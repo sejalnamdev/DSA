@@ -24,15 +24,15 @@ int main(){
     cout<<"size: "<<v.size()<<endl;
     cout<<"capacity: "<<v.capacity()<<endl;
 
+    v.resize(7);
+    cout<<"size: "<<v.size()<<endl;
+    cout<<"capacity: "<<v.capacity()<<endl;
+
     v.resize(10);
     cout<<"size: "<<v.size()<<endl;
     cout<<"capacity: "<<v.capacity()<<endl;
 
     v.resize(15);
-    cout<<"size: "<<v.size()<<endl;
-    cout<<"capacity: "<<v.capacity()<<endl;
-
-    v.resize(25);
     cout<<"size: "<<v.size()<<endl;
     cout<<"capacity: "<<v.capacity()<<endl;
 
