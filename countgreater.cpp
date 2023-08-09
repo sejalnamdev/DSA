@@ -13,13 +13,12 @@ int main(){
     int x;
     cin>>x;
 
-    int occurences=0;
-
-    for( int ele:v){
-        if(ele==x){
-            occurences++;
+    int count=0;
+    for(int i=0;i<v.size();i++){
+        if(v[i]>x){
+            count++;
         }
     }
-    cout<<occurences<<endl;
-   return 0;
+    cout<<count<<endl;
+
 }
