@@ -30,5 +30,40 @@ int main(){
     int indexofsecondlargest = largestElementIndex(array,6);
     cout<<array[indexofsecondlargest]<<endl;
 
+
+    
+
     return 0;
+}
+
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+
+    
+    
+    int secondlargestElement(int array[] , int size);
+    
+    int max=INT_MIN;
+    int second_max=INT_MIN;
+    
+    int array[]={2,4 6,2,6,5};
+    int size=6;
+    
+    for(int i=0;i<size;i++){
+        if(array[i]>max){
+            max=array[i];
+        }
+    }
+    
+    for(int i=0;i<size;i++){
+        if(array[i]>second_max && array[i]!=max){
+            second_max=array[i];
+        }   
+    }
+    
+    return second_max;
 }
